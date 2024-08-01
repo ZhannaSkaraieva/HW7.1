@@ -1,0 +1,11 @@
+.Wrapper {
+  width: 1300px;
+  border: solid;
+  margin: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+
+  background-color: rgb(219, 239, 233);
+  font-family: "Times New Roman", Times, serif;
+}

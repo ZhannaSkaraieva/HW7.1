@@ -8,4 +8,67 @@
 
   background-color: rgb(219, 239, 233);
   font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+.fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+/*Part_one*/
+
+.Part_one {
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 50px;
+  border: 15px solid blueviolet;
+  padding: 45px;
+  position: relative;
+  left: 45px;
+}
+
+.Flowers {
+  display: inline;
+  min-width: 13px;
+  /*display: none; -  исчезновение элемента*/
+}
+
+/*Part_two*/
+
+.Part_two {
+  box-sizing: content-box;
+  width: 1000px;
+  margin: 50px;
+  border: 15px solid blueviolet;
+  padding: 45px;
+}
+
+.img_blok {
+  /*display: block;*/
+  display: flex;
+}
+
+.container {
+  display: flex;
+  background-color: brown;
+}
+.container > div {
+  width: 800px;
+  height: 30px;
+  margin: 10px;
+  background-color: beige;
+}
+
+/*Part_three*/
+
+.Part_three {
+  width: 900px;
+  height: 70px;
+  margin: 10px;
+  padding: 20px;
+  border: 5px salmon;
+  background-color: aliceblue;
+  overflow: scroll;
 }
